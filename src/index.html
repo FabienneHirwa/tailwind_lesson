@@ -6,12 +6,12 @@
     <title>LaslesVPN</title>
     <link rel="stylesheet" href="/public/styles.css">
 </head>
-<body class="ml-44 mt-7 mr-44">
+<body class="ml-28 mt-7 mr-28">
     <div>
         <main>
             <!--Na section-->
             <div>
-                <nav class="flex flex-col-3 gap-52">
+                <nav class="grid grid-cols-3 gap-11 ">
                     <div class="flex flex-col-3 gap-3">
                         <img class="w-8 h-8" src="../images/logo.png" alt="">
                         <h1 class="text-xl font-bold text-gray-800">Lasles<b>VPN</b></h1>
@@ -24,9 +24,9 @@
                         <a href="#" class="pr-4 text-gray-400 hover:text-black">Testimonial</a>
                         <a href="#" class="text-gray-400 hover:text-black">Help</a>
                     </div>
-                    <div>
-                        <a href="#" class="pr-6 text-gray-700 font-bold hover:underline">Sign in</a>
-                        <a href="#" class="text-red-500 border border-red-500 font-bold px-7 py-1.5 rounded-full hover:bg-red-600 hover:text-white">Sign Up</a>
+                    <div class=" ml-10 justify-items-end">
+                        <a href="#" class="mr-5 text-gray-700 font-bold hover:underline">Sign in</a>
+                        <a href="#" class="text-red-500 border border-red-500 font-bold px-9 py-3 rounded-full hover:bg-red-600 hover:text-white">Sign Up</a>
                     </div>
                 </nav>
             </div>
@@ -82,31 +82,38 @@
             </div>
             </section>
             <section><!--Features section-->
-                <div>
+                <div class="grid grid-cols-2 ">
+                <div class="">
                     <img src="../images/2.png" alt="">
                 </div>
-                <div>
-                    <h2>We Provide Many Features You Can Use</h2>
-                    <p>You can explore the features that we provide with fun and have their own functions each feature</p>
-                    <ul>
-                        <li>
-                            <img src="" alt="">
-                            <p>Powerfull online protection.</p>
-                        <li>
-                            <img src="" alt="">
-                            <p>Internet without borders.</p>
+                <div class="ml-24">
+                    <h2 class="text-4xl font-bold text-gray-900">We Provide Many <br> Features You Can Use</h2>
+                    <p class="mt-6 text-gray-600 text-lg">You can explore the features that we provide with fun and have their own functions each feature.</p>
+                    <ul class="mt-6">
+                        <li class="flex flex-col-2 gap-2 mb-5">
+                           <img src="../images/tick.png" class="w-5 h-5"  alt=""> 
+                           <p class="text-gray-600 text-base">Powerfull online protection.</p>
                         </li>
-                        <li>
-                            <img src="" alt="">
-                            <p>Supercharcharged VPN</p>
+                        <li class="flex flex-col-2 gap-2 mb-5">
+                            <img src="../images/tick.png" class="w-5 h-5"  alt="">
+                            <p class="text-gray-600 text-base">Internet without borders.</p>
+                        </li>
+                        <li class="flex flex-col-2 gap-2 mb-5">
+                            <img src="../images/tick.png" class="w-5 h-5"  alt="">
+                            <p class="text-gray-600 text-base">Supercharcharged VPN.</p>
+                        </li> 
+                        <li class="flex flex-col-2 gap-2">
+                            <img src="../images/tick.png" class="w-5 h-5"  alt="">
+                            <p class="text-gray-600 text-base">No specific time limits.</p>
                         </li>   
                     </ul>
                 </div>
+            </div>
             </section>
-            <section><!--Your Plan section-->
-                <h2>Choose Your Plan</h2>
-                <p>Let's choose the package that is best and explore it happily and cheerfully.</p>
-                <div><!--Plan cards-->
+            <section class="py-10"><!--Your Plan section-->
+                <h2 class="text-4xl font-bold text-gray-900 text-center mb-5">Choose Your Plan</h2>
+                <p class="text-gray-600 text-lg text-center">Let's choose the package that is best and explore it happily and cheerfully.</p>
+                <div class="grid grid-cols-3 mt-10"><!--Plan cards-->
                     <div>
                         <img src="" alt="">
                         <h3>Free Plan</h3>
